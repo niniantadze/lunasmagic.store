@@ -22,12 +22,12 @@ export default function Navbar() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Home
+                ბლოგი
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link
+                მასტერკლასები{" "}
               </a>
             </li>
             <li className="nav-item dropdown">
@@ -38,12 +38,12 @@ export default function Navbar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                ჩამოშალე
               </a>
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    ლუნას ბლოგი
                   </a>
                 </li>
                 <li>
@@ -64,7 +64,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link disabled" aria-disabled="true">
-                Disabled
+                ჯადოსნური მაღაზია{" "}
               </a>
             </li>
           </ul>
