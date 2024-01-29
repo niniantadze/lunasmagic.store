@@ -6,9 +6,10 @@ import Navbar from "./Navbar";
 export default function App() {
   return (
     <div className="App">
+      {" "}
+      <Navbar />
       <div class="container">
         <header className="App-header">
-          <Navbar />
           <img src={logo} className="App-logo img-fluid" alt="logo" />
           <h1>Coming Soon...</h1>
           <Hearts
