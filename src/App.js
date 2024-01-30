@@ -9,7 +9,9 @@ export default function App() {
       {" "}
       <Navbar />
       <div class="container">
-        <header className="App-header">/></header>
+        <header className="App-header">
+          
+        </header>
       </div>
     </div>
   );
