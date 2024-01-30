@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "./lunasmagic-logo.svg";
 import "./App.css";
-import { Hearts } from "react-loader-spinner";
+import HomepageContent from "./HomepageContent";
 import Navbar from "./Navbar";
+
 export default function App() {
   return (
     <div className="App">
@@ -10,7 +10,7 @@ export default function App() {
       <Navbar />
       <div class="container">
         <header className="App-header">
-          <Homepage-Content />
+          <HomepageContent />
         </header>
       </div>
     </div>

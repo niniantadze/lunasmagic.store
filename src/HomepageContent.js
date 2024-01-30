@@ -1,14 +1,24 @@
 import React from "react";
+import AniHomePage from "./71378579_10211965419210867_743412242837405696_n.jpg";
 
 export default function HomepageContentEditable() {
   return (
     <div className="HomepageContent">
-      <div
-        className="grid text-center"
-        style="--bs-columns: 10; --bs-gap: 1rem;"
-      >
-        <div className="g-col-6"></div>
-        <div className="g-col-4">.g-col-4</div>
+      <div className="container">
+        <div className="row text-center">
+          <div className="col-md-6">
+            <img
+              src={AniHomePage}
+              alt="founder-of-lunasmagicstore"
+              className="img-fluid rounded"
+            />
+          </div>
+          <div className="col-md-4 text-align pt-6">
+            🌙აღმოაჩინე @mylunastories ჯადოსნური საჩუქრები ზღაპრულ სივრცეში🔮
+            🧝🏽‍♂️ჩვენი ჯადოქარი 🧹მოფრინდება ნებისმიერ ლოკაციაზე სულის ჩამდგმელი:
+            @mylunastories{" "}
+          </div>
+        </div>
       </div>
     </div>
   );
