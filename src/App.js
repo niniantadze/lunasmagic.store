@@ -10,7 +10,7 @@ export default function App() {
       <Navbar />
       <div class="container">
         <header className="App-header">
-          
+          <Homepage-Content />
         </header>
       </div>
     </div>
