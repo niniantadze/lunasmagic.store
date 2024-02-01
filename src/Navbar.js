@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className="Navbar">
@@ -74,7 +74,10 @@ export default function Navbar() {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-success" type="submit">
+            <button
+              className="btn btn-outline-success custom-btn"
+              type="submit"
+            >
               Search
             </button>
           </form>

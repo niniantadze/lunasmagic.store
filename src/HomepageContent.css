@@ -1,9 +1,10 @@
 .HomepageContent .about-text {
   margin-top: 50px;
-  font-size: 24px;
+  font-size: 28px;
   height: 1.5;
+  text-align: left;
 }
 .HomepageContent img {
-  width: 300px;
+  width: 400px;
   margin-top: 50px;
 }
