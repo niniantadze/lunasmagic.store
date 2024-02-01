@@ -8,3 +8,22 @@
   width: 400px;
   margin-top: 50px;
 }
+.HomepageContent .btn-costum {
+  color: aliceblue;
+  background-color: blueviolet;
+  border: none;
+  transition: all 150ms ease-in-out;
+}
+
+.HomepageContent .btn-costum:hover {
+  color: blueviolet;
+  background-color: aliceblue;
+  text-decoration: underline;
+}
+
+.HomepageContent .container {
+  background-color: rgb(235, 218, 228);
+  color: black;
+  margin-top: 30px;
+  border-radius: 8px;
+}

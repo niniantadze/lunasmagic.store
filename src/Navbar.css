@@ -7,3 +7,7 @@
 .custom-btn:hover {
   background: #934d8b;
 }
+.custom-navbar {
+  background-color: rgb(235, 218, 228);
+  padding-left: 38px;
+}

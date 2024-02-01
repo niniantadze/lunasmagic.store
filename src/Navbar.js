@@ -3,8 +3,8 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className="Navbar">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary ">
-        <a className="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-lg navbar-light custom-navbar">
+        <a className="navbar-brand  " href="/">
           Luna's Magic Store
         </a>
         <button
