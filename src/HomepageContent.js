@@ -1,6 +1,7 @@
 import React from "react";
 import AniHomePage from "./71378579_10211965419210867_743412242837405696_n.jpg";
 import "./HomepageContent.css";
+import InstaPost from "./InstaPost";
 export default function HomepageContent() {
   return (
     <div className="HomepageContent">
@@ -33,6 +34,7 @@ export default function HomepageContent() {
           </div>
         </div>
       </div>
+      <InstaPost />
     </div>
   );
 }
